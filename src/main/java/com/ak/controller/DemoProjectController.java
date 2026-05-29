@@ -9,7 +9,7 @@ public class DemoProjectController {
     @GetMapping("/hello")
     public String getData(){
         System.out.println("hello sir");
-        return "hello sir";
+        return "hello sir.";
     }
 
 
